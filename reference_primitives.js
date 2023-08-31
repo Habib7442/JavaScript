@@ -38,4 +38,4 @@ let arr1 = [1, 2, 3];
 let arr2 = arr1; // arr2 references the same array in memory
 
 arr2.push(4);
-console.log(arr1); // Outputs: [1, 2, 3, 4] (both variables po
+console.log(arr1); // Outputs: [1, 2, 3, 4] (both variables reference the same array)
